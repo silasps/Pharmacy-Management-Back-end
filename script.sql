@@ -4,8 +4,8 @@ BEGIN;
 CREATE TABLE IF NOT EXISTS public.user_data
 (
     user_id bigint NOT NULL,
-    email character varying(60) NOT NULL,
-    password character varying(8) NOT NULL,
+    email character(60) NOT NULL,
+    password character(8) NOT NULL,
     PRIMARY KEY (user_id)
 );
 

@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Spring Boot application starter class
  */
 @SpringBootApplication
-public class Application {
+public class PharmacyApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(PharmacyApplication.class, args);
     }
 }

@@ -23,7 +23,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @RunWith(OrderedTestRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class GreetingsControllerTest {
+public class PharmacyControllerTest {
     @ClassRule
     public static final SpringClassRule springClassRule = new SpringClassRule();
 
@@ -38,12 +38,12 @@ public class GreetingsControllerTest {
 
     @BeforeClass
     public static void setUpClass() {
-        TestWatchman.watchman.registerClass(GreetingsControllerTest.class);
+        TestWatchman.watchman.registerClass(PharmacyControllerTest.class);
     }
 
     @AfterClass
     public static void tearDownClass() {
-        TestWatchman.watchman.createReport(GreetingsControllerTest.class);
+        TestWatchman.watchman.createReport(PharmacyControllerTest.class);
     }
 
     /**
