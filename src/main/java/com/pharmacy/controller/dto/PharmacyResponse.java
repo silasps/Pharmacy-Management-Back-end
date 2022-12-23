@@ -1,4 +1,4 @@
-package com.pharmacy.controllers.dto;
+package com.pharmacy.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

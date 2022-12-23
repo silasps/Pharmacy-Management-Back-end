@@ -1,6 +1,6 @@
-package com.pharmacy.controllers;
+package com.pharmacy.controller;
 
-import com.pharmacy.controllers.dto.PharmacyResponse;
+import com.pharmacy.controller.dto.PharmacyResponse;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

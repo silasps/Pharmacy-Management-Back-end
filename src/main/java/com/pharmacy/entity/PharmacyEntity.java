@@ -1,4 +1,4 @@
-package com.pharmacy.entities;
+package com.pharmacy.entity;
 
 import lombok.*;
 
@@ -35,7 +35,7 @@ public class PharmacyEntity {
     @Column(name = "mobile")
     private Integer mobile;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "addres_entity_id")
     private AddresEntity addresEntity;
 }

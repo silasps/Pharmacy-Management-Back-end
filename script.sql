@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS public.address
     address_id bigint NOT NULL,
     zip_code numeric(12) NOT NULL,
     street character(50) NOT NULL,
-    "number" numeric(8) NOT NULL,
-    neighbor character(50) NOT NULL,
+    num numeric(8) NOT NULL,
+    district character(50) NOT NULL,
     city character(50) NOT NULL,
     state character(50) NOT NULL,
     complement character(50),
@@ -39,13 +39,13 @@ CREATE TABLE IF NOT EXISTS public.address
 
 CREATE TABLE IF NOT EXISTS public.medicine
 (
-    medicine_id bigint NOT NULL,
-    medicine_name character(60) NOT NULL,
+    id bigint NOT NULL,
+    name character(60) NOT NULL,
     lab_name character(60) NOT NULL,
-    medicine_dose character(30) NOT NULL,
-    medicine_description character(200),
-    medicine_unit_price numeric(20) NOT NULL,
-    medicine_type character(30) NOT NULL,
-    PRIMARY KEY (medicine_id)
+    dose character(30) NOT NULL,
+    description character(200),
+    unit_price numeric(20) NOT NULL,
+    type character(30) NOT NULL,
+    PRIMARY KEY (id)
 );
 END;
