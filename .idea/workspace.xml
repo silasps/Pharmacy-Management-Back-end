@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c762f2c-0e29-4250-ad78-d3940de68cc4" name="Changes" comment="lombok dependency">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/entity/AddresEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/entity/MedicineEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/MedicineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/PharmacyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="5c762f2c-0e29-4250-ad78-d3940de68cc4" name="Changes" comment="Repositories creation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/controllers/PharmacyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/PharmacyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/controllers/dto/PharmacyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/controller/dto/PharmacyResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/entities/AddresEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/entities/PharmacyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/entity/PharmacyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/MedicineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/MedicineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/PharmacyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/PharmacyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharmacy/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +107,9 @@
       <workItem from="1671072675950" duration="1193000" />
       <workItem from="1671276786752" duration="1100000" />
       <workItem from="1671280537852" duration="2499000" />
-      <workItem from="1671806315639" duration="3055000" />
+      <workItem from="1671806315639" duration="5097000" />
+      <workItem from="1671828457497" duration="514000" />
+      <workItem from="1673103560913" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671073133378</created>
@@ -132,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671142790599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Repositories creation">
+      <created>1671814617037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671814617037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="lombok dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="lombok dependency" />
+    <MESSAGE value="Repositories creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repositories creation" />
   </component>
 </project>
