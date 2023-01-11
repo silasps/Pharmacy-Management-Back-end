@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.util.UUID;
 
 @Entity
 @Table(name = "address")
@@ -13,12 +15,14 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class AddresEntity {
+public class AddresEntity implements Serializable {
+
+    private static final long serialVersionUUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "address_id")
-    private Long id;
+    private UUID id;
 
     @Column(name = "zip_code")
     private Integer zipCode;

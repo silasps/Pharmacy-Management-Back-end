@@ -3,6 +3,10 @@ package com.pharmacy.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import java.io.Serializable;
+import java.math.BigInteger;
+import java.util.UUID;
 
 @Entity
 @Table(name = "pharmacy")
@@ -10,18 +14,20 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class PharmacyEntity {
+public class PharmacyEntity implements Serializable {
+
+    private static final long serialVersionUUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "pharm_id")
-    private Long id;
+    private UUID id;
 
     @Column(name = "corporate_name")
     private String corporateName;
 
     @Column(name = "ein_cnpj")
-    private Integer ein;
+    private String ein; //Employer Identification Number
 
     @Column(name = "business_name")
     private String businessName;
@@ -30,10 +36,10 @@ public class PharmacyEntity {
     private String email;
 
     @Column(name = "phone")
-    private Integer phone;
+    private String phone;
 
     @Column(name = "mobile")
-    private Integer mobile;
+    private String mobile;
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "addres_entity_id")
